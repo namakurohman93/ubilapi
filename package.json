@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test nyc mocha --report lcovonly -- -R spec --exit && codecov"
+    "test": "nyc mocha  --exit",
+    "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
