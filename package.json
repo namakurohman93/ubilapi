@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/didadadida93/ubilapi/issues"
   },
-  "homepage": "https://github.com/didadadida93/ubilapi#readme"
+  "homepage": "https://github.com/didadadida93/ubilapi#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
