@@ -6,6 +6,6 @@ Unofficial [billboard.com](https://www.billboard.com) API.
 ### TODO
 [x] create testing (5/08/2020)  
 [x] create simple app based on testing (5/08/2020)  
-[x] setup simple travis ci/cd (5/08/2020)
-[  ] create testing for separating route
-[  ] create testing for new route
+[x] setup simple travis ci/cd (5/08/2020)  
+[  ] create testing for separating route  
+[  ] create testing for new route  
