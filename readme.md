@@ -7,5 +7,5 @@ Unofficial [billboard.com](https://www.billboard.com) API.
 [x] create testing (5/08/2020)  
 [x] create simple app based on testing (5/08/2020)  
 [x] setup simple travis ci/cd (5/08/2020)  
-[  ] create testing for separating route  
-[  ] create testing for new route  
+[x] create testing for separating routea (13/08/2020)  
+[x] create testing for new route (13/08/2020)  
