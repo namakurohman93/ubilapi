@@ -1,11 +1,12 @@
 {
   "name": "ubilapi",
   "version": "0.0.1",
-  "description": "",
+  "description": "Unofficial Billboard API",
   "main": "app.js",
   "scripts": {
     "test": "nyc mocha  --exit",
-    "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "dev": "NODE_ENV=development nodemon bin/http.js"
   },
   "repository": {
     "type": "git",
