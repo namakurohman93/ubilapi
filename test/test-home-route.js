@@ -6,7 +6,7 @@ const app = require("../app");
 
 chai.use(chaiHttp);
 
-describe("testing home route", function() {
+describe("testing / route", function() {
   describe("testing GET / - (code: 200)", function() {
     it("should return object { message: 'Hello World!' }", async function() {
       const response = await chai.request(app).get("/");
