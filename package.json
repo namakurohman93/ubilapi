@@ -6,7 +6,8 @@
   "scripts": {
     "test": "nyc mocha  --exit",
     "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "dev": "NODE_ENV=development nodemon bin/http.js"
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
