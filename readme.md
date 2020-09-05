@@ -13,3 +13,4 @@ Unofficial [billboard.com](https://www.billboard.com) API.
 - [x] add new route based on new testing (17/08/2020)  
 - [x] create new testing for route: `/api/top-100` (23/08/2020)
 - [x] add new route based on testing (23/08/2020)  
+- [x] implement `billboard-top-100` packages (05/09/2020)  
